@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<title>myalbums</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left w3-black" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+  <a href="photos.html" onclick="w3_close()" class="w3-bar-item w3-button">Photos</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-pink w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16">Profile</div>
+  </div>
+</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+<!-- Profile Photo Grid-->
+  <div class="cardright w3-row-padding w3-padding-35 w3-center w3-black" id="Photos"><br>
+    <img class="img-circle" style="width: 20em; height: 20em;"
+        src="https://scontent.fcnx2-1.fna.fbcdn.net/v/t1.6435-9/67412803_2894756260595203_5500032130236809216_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHT8ueHdsULaL3i-VlgUaErNoPdQOfhUkI2g91A5-FSQiG2T91srS2W9AaSFRFBX64EITmIetKQBbBr8uyUVFQS&_nc_ohc=WfWv4k4JDB4AX_GOu1S&_nc_ht=scontent.fcnx2-1.fna&oh=d6dee7a405b324101325f0ad18cf3fff&oe=614F0526"
+        alt="">
+            <h4>นางสาวกวินทรา ยะป๊อก<br>
+            ปัจจุบันศึกษาอยู่มหาวิทยาลัยเนชั่น<br>
+            เรียนคณะบรหารธุรกิจและรัฐประสาสนศาสตร์<br>
+            สาขาวิทยาการคอมพิวเตอร์ ชั้นปีที่ 4</h4><br>
+    <div class="fb-fanpage">
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/บั-น-ทึ-ก-ส-ต-อ-รี่-100783578443139/&tabs=timeline&width=500&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"  style="border:none;overflow:hidden;width: 20em; height: 30em;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </div><br>
+    <div class="text">
+        <a href="https://www.facebook.com/kawintara.wiw/"><h>FACEBOOK</h></a>&nbsp; &nbsp;&nbsp;
+        <a href="https://github.com/kawintharawiw"><h>GITHUB</h></a>&nbsp; &nbsp; &nbsp;
+        <a href="https://www.youtube.com/channel/UCf2-upkzyK9GEpKYy-ySX3A?view_as=subscriber"><h>YOUTUBE</h></a>
+    </div><br>
+  </div><br>
+</div>
+
+<!-- End page content -->
+<div>
+</div>
+
+<!-- Footer -->
+  <footer class="w3-row-padding w3-padding-50 w3-pink">
+    <div class="w3-six w3-center">
+      <a>Powered by Kawinthra</a>
+    </div>
+
+  </footer>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
